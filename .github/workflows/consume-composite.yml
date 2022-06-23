@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: lfraile-dotnet-2022-workshop/.github/actions/composite-action.yml@main
+        uses: lfraile-dotnet-2022-workshop/.github/actions/composite-demo@main
         with:
           who-to-greet: 'DotNet 2022'
